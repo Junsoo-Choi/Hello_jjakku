@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>안녕 짜꾸야!</title>
+    <meta charset="utf-8">
+    <meta name = "description" content="캐릭터 인사">
+    <meta name = "keywords" content="캐릭터,character,인사,hello,짜꾸,jjakku">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="button_interaction.js"></script>
+    
 </head>
 <body>
-    <h1>hello world two</h1>
-    <h1>hello world two</h1>
-    <h1>hello world two</h1>
+    <div class="section">
+
+        <button onclick="motion(), play()">안녕 짜꾸야!</button>
+
+            <div id="run" class="run">
+                
+                <img src="짜꾸.png">
+
+                <!--손-->
+                <div id="hand" class="hand">
+                    <img src="짜꾸손.png">
+                </div>
+            </div>
+        
+    </div>
+
+    <audio id="audio_play" src="buble move.mp3"></audio>
+
+
+
 </body>
 </html>
